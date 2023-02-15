@@ -36,6 +36,8 @@ do
     setprop sys.usb.config adb
    elif [ "$chkfrstfn" = "mtp.gs0" ]; then
     setprop sys.usb.config mtp
+   elif [ "$chkfrstfn" = "ffs.mtp" ]; then
+    setprop sys.usb.config mtp
    fi
   fi
   sleep 0.5
