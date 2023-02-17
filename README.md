@@ -6,5 +6,6 @@ Module was currently tested on folowing devices:
 2) Realme XT (RMX1921)
 3) Razer Phone (Project Cheryl, LineageOS 19.1)
 4) Google Pixel 5a 5G (Barbet, Stock Android 13)
+5) Xiaomi Mi 9T (davinci, RiceDroid, A13)
 
 Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?showtopic=915158&view=findpost&p=120850854. Там так же можно внести предложения или задать вопросы.
