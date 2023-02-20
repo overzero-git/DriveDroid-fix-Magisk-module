@@ -10,4 +10,4 @@ Module was currently tested on folowing devices:
 6) Samsung Galaxy A22s 5G (a22x, Stock Android 11)
 7) Doogie s98pro (Stock Android)
 
-Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?showtopic=915158&view=findpost&p=120850854 . Там так же можно внести предложения или задать вопросы.
+Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?s=&showtopic=915158&view=findpost&p=120972972 . Там так же можно внести предложения или задать вопросы.
