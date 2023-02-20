@@ -28,8 +28,10 @@ do
     setprop sys.usb.state cdrom
   elif [ "$chkapp" -eq "0" ] && [ "$chkfn" = "mass_storage.0" ]; then
     # remove mass_storage.0 function & restore previous function
-    setprop sys.usb.configfs 1
-    rm /config/usb_gadget/g1/configs/b.1/f*
+    # this switch needs to Android Auto functions correct restoration on some Samsung Devices
+	setprop sys.usb.configfs 0
+	setprop sys.usb.configfs 1
+	rm /config/usb_gadget/g1/configs/b.1/f*
     ln -s /config/usb_gadget/g1/functions/"$chkfrstfn" /config/usb_gadget/g1/configs/b.1/f1 
     echo a600000.dwc3 > /config/usb_gadget/g1/UDC
   if [ "$chkfrstfn" = "ffs.adb" ]; then
