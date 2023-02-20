@@ -9,6 +9,6 @@ Module was currently tested on folowing devices:
 5) Xiaomi Mi 9T (davinci, RiceDroid, A13)
 6) Samsung Galaxy A22s 5G (a22x, Stock Android 11)
 7) Doogie s98pro (Stock Android)
-8) Redmi Note 7 (Lavender DerpFest Tango - Android 13)
+8) Redmi Note 7 (Lavender, DerpFest Tango - Android 13)
 
 Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?s=&showtopic=915158&view=findpost&p=120972972 . Там так же можно внести предложения или задать вопросы.
