@@ -8,5 +8,6 @@ Module was currently tested on folowing devices:
 4) Google Pixel 5a 5G (Barbet, Stock Android 13)
 5) Xiaomi Mi 9T (davinci, RiceDroid, A13)
 6) Samsung Galaxy A22s 5G (a22x, Stock Android 11)
+7) Doogie s98pro (Stock Android)
 
 Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?showtopic=915158&view=findpost&p=120850854. Там так же можно внести предложения или задать вопросы.
