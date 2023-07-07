@@ -1,3 +1,6 @@
+Important Reminder: I have heard rumors that some individuals are trying to make money by distributing this module. It made me very upset. Please note that this software distributing under GPL V3 (except provided .APK) and any commercial activity with this is not allowed! 
+If you paid money for it, then you were deceived, the module is completely free!
+
 Magisk module fixing DriveDroid on new android devices. Based on this script https://gist.github.com/mmtrt/5dfbd2559ea988dfbe56277347ac6c96
 This module tested on Xiaomi Mi Note 10 lite. You can replace service.sh in this module with your own modified script.
 
