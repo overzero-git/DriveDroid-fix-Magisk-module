@@ -17,6 +17,7 @@ Module was currently tested on folowing devices:
 9) Samsung s21 Ultra (BeyondROM 4.4 DWA4, Android 13) - partially works, but cable disconnection during mounting will cause reboot. Troubleshooting is now in progress.
 10) Google Pixel 7 pro (Stock Android)
 11) Realme 8i (LineageOS)
+12) Samsung Galaxy S9 (Android 13)
 
 Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?s=&showtopic=915158&view=findpost&p=120972972 . Там так же можно внести предложения или задать вопросы.
 Русскоязычная версия модуля НЕ СОВМЕСТИМА с github версией. Что это значит? Это значит что поверх англоязычного модуля русскоязычный ставить настоятельно не рекомендую - это может привести к различным мелким проблемам. Сначала удаляем старую версию, перезагружается, ставим новую. Обновлять поверх одного и того же языка - можно.
