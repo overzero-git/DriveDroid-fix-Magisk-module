@@ -4,6 +4,9 @@ If you paid money for it, then you were deceived, the module is completely free!
 Magisk module fixing DriveDroid on new android devices. Based on this script https://gist.github.com/mmtrt/5dfbd2559ea988dfbe56277347ac6c96
 This module tested on Xiaomi Mi Note 10 lite. You can replace service.sh in this module with your own modified script.
 
+How to use:
+Once you installed module - Start DriveDroid app, use it at always then kill app (in multitasking screen) - default USB settings will be restored.
+
 
 Module was currently tested on folowing devices:
 1) Xiaomi Mi Note 10 lite (toco, PixelOS - Android 13)
