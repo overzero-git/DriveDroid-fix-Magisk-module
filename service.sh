@@ -73,7 +73,7 @@ do
   elif [ "$chkapp" -eq "0" ] && [ "$mass_storage_active" -eq "1" ]; then
     # remove mass_storage.0 function
     rm "/config/usb_gadget/g1/configs/b.1/$(get_mass_storage_path)"
-    # it seems, than pixel 7 doesn't use sys.usb.config at all
+    # it seems, that pixel 7 doesn't use sys.usb.config at all
     if [ "$fn_type" = "f" ]; then
       # reload of configfs to fix samsung android auto
       setprop sys.usb.configfs 0
