@@ -7,6 +7,7 @@ This module tested on Xiaomi Mi Note 10 lite. You can replace service.sh in this
 How to use:
 Once you installed module - Start DriveDroid app, use it at always then kill app (in multitasking screen) - default USB settings will be restored.
 
+I am very sorry for broken release, latest release reuploaded now :(
 
 Module was currently tested on folowing devices:
 1) Xiaomi Mi Note 10 lite (toco, PixelOS - Android 13)
