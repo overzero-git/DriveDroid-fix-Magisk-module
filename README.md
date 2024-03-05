@@ -1,28 +1,25 @@
-Important Reminder: I have heard rumors that some individuals are trying to make money by distributing this module. It made me very upset. Please note that this software distributing under GPL V3 (except provided .APK) and you cannot sell this module! 
-If you paid money for it, then you were deceived, the module is completely free!
 
-Magisk module fixing DriveDroid on new android devices. Based on this script https://gist.github.com/mmtrt/5dfbd2559ea988dfbe56277347ac6c96
-This module tested on Xiaomi Mi Note 10 lite. You can replace service.sh in this module with your own modified script.
 
-How to use:
-Once you installed module - Start DriveDroid app, use it at always then kill app (in multitasking screen) - default USB settings will be restored.
+## DriveDroid Fix
 
-I am very sorry for broken release, latest release reuploaded now :(
+### Features:
+- Installs app and service to get DriveDroid  app working again
+ - Automatically restores previous state of USB host after app termination. 
 
-Module was currently tested on folowing devices:
-1) Xiaomi Mi Note 10 lite (toco, PixelOS - Android 13)
-2) Realme XT (RMX1921)
-3) Razer Phone (Project Cheryl, LineageOS 19.1)
-4) Google Pixel 5a 5G (Barbet, Stock Android 13)
-5) Xiaomi Mi 9T (davinci, RiceDroid, A13)
-6) Samsung Galaxy A22s 5G (a22x, Stock Android 11)
-7) Doogie s98pro (Stock Android)
-8) Redmi Note 7 (Lavender, DerpFest Tango - Android 13)
-9) Samsung s21 Ultra (BeyondROM 4.4 DWA4, Android 13) - partially works, but cable disconnection during mounting will cause reboot. Troubleshooting is now in progress.
-10) Google Pixel 7 pro (Stock Android)
-11) Realme 8i (LineageOS)
-12) Samsung Galaxy S9 (Android 13)
-13) Google Pixel 4a (Android 13 - In charging mode menu you also must switch to Data Transfer AFTER mounting image)
+### Prerequisites:
+ - Android 11 (or above) - Preferably AOSP version
+ - Magisk-powered root (I recommend Magisk 25+)
 
-Для русскоязычных пользователей модуль так же доступен здесь https://4pda.to/forum/index.php?s=&showtopic=915158&view=findpost&p=120972972 . Там так же можно внести предложения или задать вопросы.
-Русскоязычная версия модуля НЕ СОВМЕСТИМА с github версией. Что это значит? Это значит что поверх англоязычного модуля русскоязычный ставить настоятельно не рекомендую - это может привести к различным мелким проблемам. Сначала удаляем старую версию, перезагружается, ставим новую. Обновлять поверх одного и того же языка - можно.
+### Hardware
+  
+A list of devices with confirmed (full or partial) compatibility is available [here](https://raw.githubusercontent.com/overzero-git/DriveDroid-fix-Magisk-module/main/tested_hardware).
+
+### Installation:
+Like every Magisk module - download [latest release here](https://github.com/overzero-git/DriveDroid-fix-Magisk-module/releases/latest), then just install downloaded .zip in Magisk.
+
+### Donations:
+  
+The module was and will remain completely free, however, at the request of some people, I am leaving the BTC address here - if anyone wants to thank financially, you are welcome. It's still not necessary.
+
+BTC Address: 
+bc1qn3xdw34y6xmwly5cgnk9see9njr7y5jj4ts7kf
