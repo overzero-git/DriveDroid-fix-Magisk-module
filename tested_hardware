@@ -1,1 +1,15 @@
+Devices and Android versions tested with this module (This list may not be completed)
 
+Xiaomi Mi Note 10 lite (toco, PixelOS - Android 13)
+Realme XT (RMX1921)
+Razer Phone (Project Cheryl, LineageOS 19.1)
+Google Pixel 5a 5G (Barbet, Stock Android 13)
+Xiaomi Mi 9T (davinci, RiceDroid, A13)
+Samsung Galaxy A22s 5G (a22x, Stock Android 11)
+Doogie s98pro (Stock Android)
+Redmi Note 7 (Lavender, DerpFest Tango - Android 13)
+Samsung s21 Ultra (BeyondROM 4.4 DWA4, Android 13) - partially works, but cable disconnection during mounting will cause reboot. Troubleshooting is now in progress.
+Google Pixel 7 pro (Stock Android)
+Realme 8i (LineageOS)
+Samsung Galaxy S9 (Android 13)
+Google Pixel 4a (Android 13 - In charging mode menu you also must switch to Data Transfer AFTER mounting image)
