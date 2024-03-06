@@ -42,6 +42,17 @@ get_mass_storage_path() {
   ls -al /config/usb_gadget/g1/configs/b.1/ | grep -Eo "$fn_type[0-9]+[[:space:]].*mass_storage.0" | cut -d' ' -f1
 }
 
+#this options for some devices uses mass_storage.usb0 instead mass_storage.0 (some Samsung devices for example)
+is_mass_storage_usb0_present() {
+  # returns 1 if mass_storage.usb0 is present
+  ls -al /config/usb_gadget/g1/configs/b.1/ | grep -Eo "mass_storage.usb0" | wc -l
+}
+
+get_mass_storage_usb0_path() {
+  # get path to mass_storage.usb0
+  ls -al /config/usb_gadget/g1/configs/b.1/ | grep -Eo "$fn_type[0-9]+[[:space:]].*mass_storage.usb0" | cut -d' ' -f1
+}
+
 # save currently active function name
 if [ "$fn_type" = "f" ]; then
   get_chkfn > /data/adb/.fixdd
@@ -53,7 +64,8 @@ while true
 do
   # check the app is active
   chkapp="$(pgrep -f drivedroid | wc -l)"
-  # check if mass storage is active function
+  
+  # check if mass_storage.0 is active function
   mass_storage_active=$(is_mass_storage_present)
   if [ "$chkapp" -eq "1" ] && [ "$mass_storage_active" -eq "0" ]; then
     # add mass_storage.0 to currently active functions
