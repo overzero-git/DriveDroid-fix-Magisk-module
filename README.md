@@ -9,6 +9,7 @@
 ### Prerequisites:
  - Android 11 (or above) - Preferably AOSP version
  - Magisk-powered root (I recommend Magisk 25+)
+ - Latest DriveDroid installed on your device
 
 ### Hardware
   
