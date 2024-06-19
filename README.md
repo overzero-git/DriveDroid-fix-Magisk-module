@@ -7,7 +7,7 @@
  - Automatically restores previous state of USB host after app termination. 
 
 ### Prerequisites:
- - Android 11 (or above) - Preferably AOSP version
+ - Android 10 (or above) - Preferably AOSP version
  - Magisk-powered root (I recommend Magisk 25+)
  - Latest DriveDroid installed on your device
 
