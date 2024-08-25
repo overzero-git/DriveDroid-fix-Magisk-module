@@ -15,6 +15,13 @@
   
 A list of devices with confirmed (full or partial) compatibility is available [here](https://raw.githubusercontent.com/overzero-git/DriveDroid-fix-Magisk-module/main/tested_hardware).
 
+### How to use:
+1. Install module
+2. Reboot device as Magisk requires
+3. Install DriveDroid app
+4. Configure app as usual, in hosting options select "Standart Android (Kernel)"
+5. Enjoy :)
+
 ### Installation:
 Like every Magisk module - download [latest release here](https://github.com/overzero-git/DriveDroid-fix-Magisk-module/releases/latest), then just install downloaded .zip in Magisk.
 
