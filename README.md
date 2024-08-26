@@ -3,7 +3,7 @@
 ## DriveDroid Fix
 
 ### Features:
-- Installs app and service to get DriveDroid app working again (app installation will be deprecated in next release, so you must install DriveDroid separatelly).
+- Installs service to get DriveDroid app working again.
  - Automatically restores previous state of USB host after app termination. 
 
 ### Prerequisites:
